@@ -1,0 +1,4 @@
+##A buff to the orphan maker, adds two more projectiles and 1 ammo per shot.  Slightly reduced damage.##
+## Made by "Gabe The Glueman Degrossi"
+
+set GD_Orchid_BossWeapons.Shotgun.SG_Barrel_Jakobs_OrphanMaker WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=-3.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=8.00000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
